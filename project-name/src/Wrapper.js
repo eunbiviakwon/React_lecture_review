@@ -5,10 +5,7 @@ class Wrapper extends Component {
   render() {
     const {children} = this.props;
     return (
-      // <div>{children}</div>
-      <div>
-        hello
-      </div>
+      <div>{children}</div>
     );
   }
 }
